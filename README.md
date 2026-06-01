@@ -1,16 +1,21 @@
 ﻿# Android Accessibility Assistant SDK
 
+## 📦 Registry & Repository
+
+- **Maven Central**: [io.github.amitgaikwad2837:android-accessibility-assistant-sdk](https://central.sonatype.com/artifact/io.github.amitgaikwad2837/android-accessibility-assistant-sdk)
+- **GitHub**: [amitgaikwad2837/android-accessibility-assistant-sdk](https://github.com/amitgaikwad2837/android-accessibility-assistant-sdk)
+
 ## Overview
 
-Screen explanation and voice-guided navigation for elderly users
+AI-powered accessibility features including screen explanation and voice-guided navigation. Enables blind, low vision, and elderly users to interact with apps independently through enhanced accessibility.
 
 ## Installation
 
-Add the Maven dependency once artifacts are published:
+Add the Maven dependency:
 
 ~~~kotlin
 dependencies {
-  implementation("io.github.amitgaikwad2837:android-accessibility-assistant-sdk:1.0.0")
+  implementation("io.github.amitgaikwad2837:android-accessibility-assistant-sdk:0.0.9")
 }
 ~~~
 
