@@ -1,0 +1,29 @@
+{
+  "name": "android-accessibility-assistant-sdk",
+  "version": "1.0.0",
+  "description": "Screen explanation and voice-guided navigation for elderly users",
+  "platform": "android",
+  "category": "accessibility",
+  "minSdk": 24,
+  "targetSdk": 34,
+  "language": "kotlin",
+  "buildSystem": "gradle",
+  "features": [
+    "screen-explanation",
+    "voice-navigation",
+    "accessibility-overlay",
+    "wcag-scoring",
+    "context-aware-guidance",
+    "ai-assisted-navigation"
+  ],
+  "aiProviders": [
+    "openai",
+    "gemini",
+    "anthropic"
+  ],
+  "permissions": [
+    "BIND_ACCESSIBILITY_SERVICE",
+    "INTERNET"
+  ],
+  "tags": ["android", "accessibility", "elderly-care", "voice-navigation"]
+}
